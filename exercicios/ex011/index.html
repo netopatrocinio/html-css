@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho no seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML 5.</p>
+    <audio src="midia/1.mp3" controls autoplay></audio>
+    <h1>Inserindo videos ospedados localmente.</h1>
+    <p>Este video estar ospedado no meu próprio servidor.</p>
+   <video width="560" poster="thumb.jpg" controls autoplay
+   source src="videos/v1.mp4" type="video/mp4"></video>
+    <h1>Inserindo videos do YouTube</h1> <p>sem consumir dados do meu servidor.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_rApdS6doUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

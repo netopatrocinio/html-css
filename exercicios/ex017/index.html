@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Fontes em CSS.</title>
+    <style>
+        @import url()
+        body {
+            font-family: 'work Sans' Arial, Helvetica, sans-serif;
+        
+        
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            Observação: recomendações da W3C usar somente " em e px"
+            */
+            font-size: 1em ;
+          /*(uma maneira de fazer.)  font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline; */
+
+            /* (weigth/peso) , (width/largura) ,(height/autura)*/
+        }
+        h1 {
+            /* Outra maneira de fazer!
+            font-family: 'work Sans'; sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /* shorthand font (varias coisas em uma unica linha!)
+            (font-style--> font-weight-->font-size--> font-family) */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'work Sans'
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Fontes!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In reiciendis quod, laudantium voluptatum temporibus officia, possimus rem aliquam quibusdam obcaecati, consequatur quasi amet? Obcaecati perspiciatis maiores, nulla molestiae aliquid amet!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad iusto non quae dicta, officia facilis ullam nesciunt, obcaecati repellat commodi ea voluptates tempora consequatur itaque assumenda voluptatum, totam illum!
+    </p>
+    <h2>Fontes 2!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sint officiis! Iure, at. Ipsa amet, iusto labore eos nam, unde explicabo ratione deleniti excepturi eius, sit adipisci sequi doloribus saepe.</p>
+</body>
+</html>
