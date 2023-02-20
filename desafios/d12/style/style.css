@@ -76,12 +76,12 @@ section > P {
     text-shadow: 2px 2px 0px black;
 }
 #img01 {
-    background-image: url("imagens/background001.jpg");
+    background-image: url("../imagens/background001.jpg");
     background-position: right center;
     
 }
 #img02 {
-background-image: url("imagens/background002.jpg");
+background-image: url("../imagens/background002.jpg");
 background-position: right center;
 
 }
