@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site!</h1>
-        <menu>
+        <span id="burguer"  class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -36,6 +38,16 @@
             </p>
         </article>
     </main>
-    <footer><a href="#"></a>Neto Patrocínio</footer>
+    <footer>
+        <a href="https://www.youtube.com/@netopatrocinio4574" target="_blank">Neto Patrocínio</a></footer>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
