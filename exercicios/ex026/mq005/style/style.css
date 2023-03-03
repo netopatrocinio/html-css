@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body , html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    
+}
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
